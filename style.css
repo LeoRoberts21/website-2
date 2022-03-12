@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "raleway", sans-serif;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
@@ -25,6 +25,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    font-family: "raleway", sans-serif;
 }
 
 .top-section {
@@ -41,7 +42,7 @@
     justify-content: center;
     align-items: center;
     align-self: center;
-    margin-right: 50px;
+    margin-right: 25px;
     width: max-content;
 }
 
@@ -63,6 +64,13 @@ height:auto;
     line-height: 30px;
 }
 
+.welcome {
+    font-family: "ballinger-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+}
+
 a {
     text-decoration: none;
 }
@@ -80,13 +88,16 @@ a {
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "ballinger-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
 }
 
 .text-below {
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -94,16 +105,25 @@ a {
     display: flex;
     justify-content:space-between;
     gap: 50px;
-    font-family: Helvetica, Arial, sans-serif;
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     line-height: 30px;
 }
 
+.under-text {
+    font-family: Helvetica, Arial, sans-serif;
+}
 .t1 {
     width: 400px;
     max-height: 150px;
+}
+
+.news-tit {
+    font-family: "ballinger-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
 }
 
 .image2 {
@@ -128,11 +148,21 @@ height:auto;
       line-height: 30px;
 }
 
+.picas {
+    font-family: "ballinger-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+}
 .text {
     align-self: center;
     justify-content: center;
     text-align: right;
     font-family: Helvetica, Arial, sans-serif;
+      }
+
+      .comps {
+        font-family: Helvetica, Arial, sans-serif;
       }
 
 .mid-news {
@@ -165,23 +195,26 @@ height:auto;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "ballinger-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     margin-right: 50px;
 }
 
 .para {
     line-height: 30px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .subscriptions {
     display: flex;
     justify-content: center;
     gap: 50px;
-    font-family:;
     margin-top: 50px;
     margin-bottom: 50px;
     gap: 100px;
     line-height: 30px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .sub-one {

@@ -1,10 +1,13 @@
 .header {
     display: flex;
     justify-content: space-between;
-    font-family: "raleway", sans-serif;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
+}
+
+.scoot {
+   font-family: Helvetica, Arial, sans-serif;
 }
 
 .menu {
@@ -17,6 +20,7 @@
     flex-grow: 1;
     margin-right: 100px;
     gap: 50px;
+    font-family: Helvetica, Arial, sans-serif;
 
 }
 
@@ -25,7 +29,6 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    font-family: "raleway", sans-serif;
 }
 
 .top-section {
@@ -141,29 +144,18 @@ height:auto;
     height:auto;
     }
 
-.quote-box{
-    height: 300px;
+.emoji{
+    height: auto;
       display: flex; 
       justify-content: center;
       line-height: 30px;
+      margin-top: 50px;
+      margin-bottom: 50px;
 }
 
-.picas {
-    font-family: "ballinger-condensed", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 22px;
+.hand {
+    font-size: 70px;
 }
-.text {
-    align-self: center;
-    justify-content: center;
-    text-align: right;
-    font-family: Helvetica, Arial, sans-serif;
-      }
-
-      .comps {
-        font-family: Helvetica, Arial, sans-serif;
-      }
 
 .mid-news {
     display: flex;
@@ -181,6 +173,8 @@ height:auto;
     align-self: center;
     margin-left: 50px;
     width: max-content;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .image5
@@ -195,11 +189,17 @@ height:auto;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-right: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+}
+
+h1 {
     font-family: "ballinger-condensed", sans-serif;
     font-weight: 700;
     font-style: normal;
-    margin-right: 50px;
 }
+
 
 .para {
     line-height: 30px;
@@ -208,28 +208,46 @@ height:auto;
 
 .subscriptions {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
     gap: 100px;
     line-height: 30px;
     font-family: Helvetica, Arial, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.perks {
+    list-style-type: none;
+    text-align: left;
+    padding: 0px;
+}
+
+.plan {
+    font-family: "ballinger-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
 }
 
 .sub-one {
     outline: auto;
     outline-offset: 20px;
+    width: 300px;
 }
 
 .sub-two {
     outline: auto;
     outline-offset: 20px;
+    width: 300px;
 }
 
 .sub-three {
     outline: auto;
     outline-offset: 20px;
+    width: 300px;
 }
 
 .footer {

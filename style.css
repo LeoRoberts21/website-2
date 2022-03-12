@@ -29,11 +29,11 @@
 
 .top-section {
     display: flex;
-    height: 400px;
+    height: 550px;
     margin-left: 50px;
     margin-right: 50px;
     justify-content:space-between;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .left {
@@ -47,7 +47,7 @@
 
 .image1
 {
-width:600px;
+width:700px;
 height:auto;
 }
 
@@ -60,6 +60,7 @@ height:auto;
     font-family: Helvetica, Arial, sans-serif;
     margin-left: 50px;
     flex-grow: 1;
+    line-height: 30px;
 }
 
 a {
@@ -71,6 +72,8 @@ a {
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
+    line-height: 30px;
 }
 
 .text-above {
@@ -89,32 +92,32 @@ a {
 
 .three-news-stories {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     gap: 50px;
     font-family: Helvetica, Arial, sans-serif;
     margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    gap: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 30px;
 }
 
 .t1 {
-    width: 200px;
+    width: 400px;
     max-height: 150px;
 }
 
 .image2 {
-    width: 200px;
+    width: 400px;
     height:auto;
     }
 
 .image3 {
-width: 200px;
+width: 400px;
 height:auto;
 }
 
 .image4 {
-    width: 200px;
+    width: 400px;
     height:auto;
     }
 
@@ -122,6 +125,7 @@ height:auto;
     height: 300px;
       display: flex; 
       justify-content: center;
+      line-height: 30px;
 }
 
 .text {
@@ -151,7 +155,7 @@ height:auto;
 
 .image5
 {
-width: 600px;
+width: 700px;
 height:auto;
 }
 
@@ -165,14 +169,34 @@ height:auto;
     margin-right: 50px;
 }
 
+.para {
+    line-height: 30px;
+}
+
 .subscriptions {
     display: flex;
     justify-content: center;
     gap: 50px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family:;
     margin-top: 50px;
     margin-bottom: 50px;
     gap: 100px;
+    line-height: 30px;
+}
+
+.sub-one {
+    outline: auto;
+    outline-offset: 20px;
+}
+
+.sub-two {
+    outline: auto;
+    outline-offset: 20px;
+}
+
+.sub-three {
+    outline: auto;
+    outline-offset: 20px;
 }
 
 .footer {

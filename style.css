@@ -4,6 +4,7 @@
     font-family: Helvetica, Arial, sans-serif;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 .menu {
@@ -32,7 +33,7 @@
     margin-left: 50px;
     margin-right: 50px;
     justify-content:space-between;
-    
+    margin-bottom: 100px;
 }
 
 .left {
@@ -42,8 +43,11 @@
     align-self: center;
     margin-right: 50px;
     width: max-content;
-    flex-grow: 1;
-    
+}
+
+img {
+    width: 600px;
+    height: auto;
 }
 
 .right {
@@ -56,21 +60,29 @@
     flex-grow: 1;
 }
 
+a {
+    text-decoration: none;
+}
+
 .h2 {
     display:flex;
     flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .text-above {
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .text-below {
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .three-news-stories {
@@ -79,6 +91,14 @@
     gap: 50px;
     font-family: Helvetica, Arial, sans-serif;
     margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 100px;
+}
+
+.t1 {
+    width: 200px;
+    max-height: 150px;
 }
 
 .quote-box{
@@ -109,7 +129,6 @@
     align-self: center;
     margin-left: 50px;
     width: max-content;
-    flex-grow: 1;
     
 }
 
@@ -120,7 +139,6 @@
     align-items: flex-start;
     font-family: Helvetica, Arial, sans-serif;
     margin-right: 50px;
-    flex-grow: 1;
 }
 
 .subscriptions {

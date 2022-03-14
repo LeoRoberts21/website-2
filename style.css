@@ -78,7 +78,7 @@ font-weight: 700;
 font-style: normal;
     font-size: 100px;
     margin-bottom: 30px;
-    color: #e8584f;
+    color: #f94144;
 }
 
 .tu {
@@ -108,7 +108,6 @@ a {
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
-    color: #000000
 }
 
 .text-below {
@@ -325,7 +324,11 @@ h1 {
     font-family: "balto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #e8584f
+    background-color: #f94144;
+}
+
+.foot {
+  color: #fff;
 }
 
 .button-50 {
@@ -431,9 +434,9 @@ h1 {
   }
 
 .button-32 {
-  background-color: #f3d250;
+  background-color: #f9c74f;
   border-radius: 12px;
-  color: #000;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   font-weight: bold;
   padding: 10px 15px;
@@ -452,8 +455,7 @@ h1 {
 .button-32:not(:disabled):hover,
 .button-32:not(:disabled):focus {
   outline: 0;
-  background: #fff000;
-  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+  background: #f8b927;
 }
 
 .button-32:disabled {
@@ -462,7 +464,7 @@ h1 {
 }
 
 .button-31 {
-    background-color: #f3d250;
+    background-color: #f9c74f;
     border-radius: 12px;
     color: #000;
     cursor: pointer;
@@ -483,8 +485,7 @@ h1 {
   .button-31:not(:disabled):hover,
   .button-31:not(:disabled):focus {
     outline: 0;
-    background: #f4e603;
-    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+    background: #eeac13;
   }
   
   .button-31:disabled {
